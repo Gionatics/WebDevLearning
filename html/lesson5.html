@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+</head>
+<body>
+    <!--Start with table-->
+    <table>
+        <!--Organize title of column-->
+        <thead>
+            <!--Table row-->
+            <tr>
+                <!--Column header-->
+                <td><strong>COLUMN 1</strong></td>
+                <td><strong>COLUMN 2</strong></td>
+                <td><strong>COLUMN 3</strong></td>
+            </tr>
+        </thead>
+        <!--Organize column data-->
+        <tbody>
+            <!--First record, create another tr and td to add new record-->
+            <tr>
+                <td rowspan = "2">1st Data 1</td>
+                <td>1st Data 2</td>
+                <td>1st Data 3</td>
+            </tr>
+
+            <tr>
+                <td>2nd Data 1</td>
+                <td>2nd Data 2</td>
+                <td>2nd Data 3</td>
+            </tr>
+
+            <tr>
+                <!--colspan = merge columns, rowspan = merge rows, use pesticde on chrome to visualize-->
+                <td colspan = "2">3rd Data 1</td>
+                <td>3rd Data 2</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

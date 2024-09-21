@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+</head>
+<body>
+    <!--start with form tag-->
+    <form>
+        <!--input tag, note that each input tag should have distinction for form to database connection-->
+        <input type ="text"/>
+        <input type="password"/>  
+        
+        Tick one or multiple
+        <!--if added the id of input tag to a label tag using for, 
+        you can also tick the checkbox when label was clicked-->
+        <input id = "check" type="checkbox">
+        <label for = "check">first</label>
+
+        <input type="checkbox">
+        second
+
+        Tick only one
+        <!--to choose only 1, add name to attributes of radio button to be grouped-->
+        <input type="radio" name="choice">
+        first
+
+        <input type="radio" name="choice">
+        second
+
+        <select>
+            <option>1st selection</option>
+            <option>2nd selection</option>
+            <option>3rd selection</option>
+            <option>4th selection</option>
+        </select>
+
+        <textarea>
+
+        </textarea>
+
+        <button type="submit">Submit</button>
+        <button type="button">Cancel</button>
+    </form>
+</body>
+</html>
