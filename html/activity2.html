@@ -10,11 +10,11 @@
         <h1>My Feedback Form</h1>
 
         <div>
-            <div>
+            <div><!--hidden, readonly, disabled, value, selected, required, min and max attributes-->
                 <ul>
-                    <li>Name: <input type="text"></li>                  
-                    <li>Email: <input type="email"></li>
-                    <li>Password: <input type="password"></li>
+                    <li>Name: <input type="text" value="default value" required></li>                  
+                    <li>Email: <input type="email" required></li>
+                    <li>Password: <input type="password" required></li>
                 </ul>
             </div>
 
@@ -51,8 +51,14 @@
             
             <div>
                 <ul>
-                    <li>Bio photo: <input type="text" />     
+                    <li>Bio photo: <input type="text" readonly disabled/>     
                     <button type = "button">Choose</button> </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Phone Number: <input type="number" min="9"/>
                 </ul>
             </div>
 
@@ -60,7 +66,7 @@
                 <ul>
                     <li>Location Visited
                         <select>
-                            <option>Philippines</option>
+                            <option selected>Philippines</option>
                             <option>America</option>
                             <option>Japan</option>
                             <option>Korea</option>
