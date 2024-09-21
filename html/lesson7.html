@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+</head>
+<body>
+    <nav>
+        <span>Home</span>
+        <span>About Us</span>
+        <span>Contact Us</span>
+    </nav>
+
+    <main>
+        <form>
+            <h1>My Feedback Form</h1>
+    
+            <div>
+                <div>
+                    <ul>
+                        <li>Name: <input type="text" value="default value" required></li>                  
+                        <li>Email: <input type="email" required></li>
+                        <li>Password: <input type="password" required></li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul>
+                        <li>Please check all the emotions that apply to you:</li>
+                        <ul>
+                            <li>Very satisfied <input id = "checkbtn" type="checkbox"></li>
+                            <li>Sad <input id = "checkbtn" type = "checkbox"></li>
+                            <li>Happy <input id ="checkbtn" type = "checkbox"></li>
+                            <li>Ambivalent <input id ="checkbtn" type = "checkbox"></li>
+                        </ul>
+                    </ul>
+                </div>
+                
+                <div>
+                    <ul>
+                        <li>How satisfied were you with the service?</li>
+                        <ul>
+                            <li>Very satisfied <input name = "radiobtn" type="radio"></li>
+                            <li>Satisfied <input name = "radiobtn" type="radio"></li>
+                            <li>Didn't care <input name = "radiobtn" type="radio"></li>
+                            <li>Dissatisfied <input name = "radiobtn" type="radio"></li>
+                            <li>Very dissatisfied <input name = "radiobtn" type="radio"></li>
+                        </ul>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul>
+                        <li>Further Comments: <textarea></textarea></li>    
+                    </ul>
+                </div>
+                
+                <div>
+                    <ul>
+                        <li>Bio photo: <input type="text" readonly disabled/>     
+                        <button type = "button">Choose</button> </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul>
+                        <li>Phone Number: <input type="number" min="9"/>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul>
+                        <li>Location Visited
+                            <select>
+                                <option selected>Philippines</option>
+                                <option>America</option>
+                                <option>Japan</option>
+                                <option>Korea</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul>
+                        <li><button type ="submit">Submit</button>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+<footer>Copyright 2024</footer>
+</html>
