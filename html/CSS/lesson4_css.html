@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4 - CSS</title>
+
+    <style>
+        body{
+            background-image: url(../Images/mypicture.PNG);
+            background-repeat: no-repeat;
+            background-position-x: 600px;
+            background-position-y: 200px;
+        }
+
+        button{
+            background-color: red;
+            color:white;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: blue;
+            color:white;
+            height: 80px;
+            transition-duration: 3s;
+            margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <!--Relative position
+    <div style="background-color: red; height:150px; width: 150px; 
+    position:relative; top: 120px; left:50px;">RELATIVE</div>
+
+    <div style="background-color: blue; height:150px; width: 150px;
+    "></div>
+    -->
+
+    <!--Absolute position
+    <div style="background-color: red; height:150px; width: 150px; 
+    position:absolute; top: 120px; left:50px;">ABSOLUTE</div>
+
+    <div style="background-color: blue; height:150px; width: 150px;
+    "></div>
+    -->
+
+    <!--Fixed position
+        <div style="background-color: red; position:fixed">HOME ABOUT</div>
+        <div style="padding:2000px"></div>
+    -->
+    
+    <!--Display property
+    <div style="background-color:red; display:inline;">
+        Inline Element
+    </div>
+    
+    <span style="background-color:blue; display:block">
+        Block Element
+    </span>
+
+    <span style="background-color: gold; height:400px; width: 400px;display:inline-block;">
+        Inline Block
+    </span>
+    -->
+
+    <!--Float property - for Image
+    <img src="../Images/mypicture.PNG" style="float:right;">
+
+    <div style="clear:right;">
+        This is my picture taken when I am applying. Wowowiwow
+    </div>
+    -->
+
+    <!--Grid
+    <div style="display:grid">
+        <div style="background-color: red; grid-row:1; grid-column:1/3"; >DIV1</div>
+        <div style="background-color: yellow; grid-row:1; grid-column:2/3";>DIV2</div>
+        <div style="background-color: blue; grid-row:1; grid-column:3/3;";>DIV3</div>
+    </div>
+
+    <div style="display:grid">
+        <div style="background-color: green; grid-row:1; grid-column:1/3;";>DIV4</div>
+        <div style="background-color: darkgreen; grid-row:1; grid-column:2/3";>DIV5</div>
+        <div style="background-color: yellowgreen; grid-row:1; grid-column:3/3";>DIV6</div>
+    </div>
+    -->
+
+    <!--Flex
+    <div style="display:flex">
+        <div style="background-color: red; padding:5px"; >DIV1</div>
+        <div style="background-color: yellow; padding:5px";>DIV2</div>
+        <div style="background-color: blue; padding:5px";>DIV3</div>
+        <div style="background-color: green; padding:5px";>DIV4</div>
+        <div style="background-color: darkgreen; padding:5px";>DIV5</div>
+    </div>
+    -->
+
+    HELLO WORLD
+
+    <button>
+        SUBMIT
+    </button>
+</body> 
+</html>

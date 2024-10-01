@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/lesson1_css.css">
+    <title>Lesson 1 - CSS</title>
+    
+    <!--internal CSS-->
+    <style>
+        #internalcss
+        {
+            color:pink
+        }
+
+        p
+        {
+            color:brown
+        }
+
+        .group1
+        {
+            color:blueviolet;
+        }
+
+        .group2
+        {
+            background-color:skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- when in hierarchy, the rule is inline -> internal -> external when rendering -->
+    <h1 style="color:blue;">Example inline CSS</h1>
+    <h2 id="internalcss">Example internal CSS</h2>
+    <h3 id="externalcss">Example external CSS</h3>
+
+    <p>First Paragraph</p>
+    <p>Second Paragraph</p>
+    <p>Third Paragraph</p>
+    
+    <div class="group1 group2">Division 1</div>
+    <section class="group1">Division 2</section>
+    <article class="group1">Division 3</article>
+</body>
+</html>
