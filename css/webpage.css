@@ -1,0 +1,50 @@
+.roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#header {
+    display:flex;
+    background-color:#487e94;
+    height:150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#image {
+    display: flex;
+    height: 100px;
+    width:auto;
+    object-fit:contain;
+}
+
+/* Styling the menu */
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling each menu item */
+.menu li {
+    margin-left: 20px;
+}
+
+/* Styling the links */
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+}
+
+/* Hover effect for links */
+.menu li a:hover {
+    background-color: #487e94; /* A slightly darker shade for hover */
+    border-radius: 5px;
+    color: skyblue;
+}
