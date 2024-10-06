@@ -1,0 +1,51 @@
+.roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  #loginbaseform {
+    background-color: lightgrey; 
+    position:absolute; 
+    padding: 10px;
+    margin:auto;
+    inset: 0px;
+    width: 800px;
+    height: 400px;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .infocontainer {
+    position:relative;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 200px;
+    width: 300px;
+    height: 250px;
+  }
+
+  #uname, #pw {
+    padding:10px;
+    width: 350px;
+  }
+
+  #button {
+    padding:10px;
+  }
+
+  #image {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+  }
+
+  #image img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: -65%;
+    left: 350%;
+    transform: translateY(-50%);
+  }
