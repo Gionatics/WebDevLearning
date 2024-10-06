@@ -9,30 +9,37 @@
     <title>Login Form</title>
 </head>
 <body>
-    <div id = "loginbaseform">LOGIN</div>
-    <div class ="infocontainer" class="roboto-regular">
-        <form>
-            <div id="uname">
-                <label for="username">Username</label>
-                <input type="username" class="form-control" id="username" 
-                placeholder="Enter Username" required="true">
-            </div>
+    <div id = "loginbaseform">  
+        <div class ="infocontainer" class="roboto-regular">
+            <form>
+                <label id="title">LOGIN</label>
 
-            <div id="pw">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" 
-                placeholder="Enter Password" required="true">
-            </div>
+                <div id="uname">
+                    <label for="username">Username</label>
+                    <input type="username" class="form-control" id="username" 
+                    placeholder="Enter Username" required>
+                </div>
 
-            <div id="button">
-                <button type="button" class="btn btn-primary">Login</button>
-                <button type="button" class="btn btn-danger">Signup</button>
-            </div>
-        </form>
-    </div>
+                <div id="pw">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" 
+                    placeholder="Enter Password" required>
+                </div>
 
-    <div id="image">
-        <img src="/Images/login_picture_activity-removebg-preview.png">
+                <div id="button">
+                    <button type="button" class="btn btn-primary">Login</button>
+                    <button type="button" class="btn btn-danger">Signup</button>
+                </div>
+
+                <div id="forgotpw">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+
+        <div id="image">
+            <img src="/Images/login_picture_activity-removebg-preview.png">
+        </div>
     </div>
 </body>
 </html>

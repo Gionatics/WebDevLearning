@@ -4,48 +4,62 @@
     font-style: normal;
   }
 
-  #loginbaseform {
-    background-color: lightgrey; 
-    position:absolute; 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+#title {
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#loginbaseform {
+    display: flex;
+    background-color: lightgrey;
+    align-items: center; 
     padding: 10px;
-    margin:auto;
-    inset: 0px;
-    width: 800px;
+    width: 700px;
     height: 400px;
-    font-size: xx-large;
-    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   }
 
-  .infocontainer {
-    position:relative;
-    font-weight: bold;
-    margin-left: 300px;
-    margin-top: 200px;
-    width: 300px;
-    height: 250px;
-  }
+.infocontainer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
 
-  #uname, #pw {
-    padding:10px;
-    width: 350px;
-  }
+#uname, #pw {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 10px;
+  padding-left: 20px;
+}
 
-  #button {
-    padding:10px;
-  }
+#button, #forgotpw {
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+  gap: 10px;
+}
 
-  #image {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    position: relative;
-  }
-
-  #image img {
-    width: 350px;
-    height: 350px;
-    position: absolute;
-    top: -65%;
-    left: 350%;
-    transform: translateY(-50%);
-  }
+#image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
